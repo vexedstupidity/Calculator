@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@300..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Sono:wght@200..800&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #E9CFE8;
+}
+
+.calculator {
+    font-family: Quicksand, sans-serif;
+    background: #E21C70;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    font-size: 5rem;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    background-color: #F966AB;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: #F966AB;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFB6C1;
+    color: #AE0849;
+}
+
+button:active {
+    background-color: #E21C70;
+    color: white;
+}
+
+.operator-btn {
+    background-color: #191B37;
+    color: white;
+}
+
+.operator-btn:hover {
+    background-color: black;
+    color: white;
+}
